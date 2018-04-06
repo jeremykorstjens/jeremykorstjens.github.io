@@ -211,8 +211,8 @@ p{
   width:100%;
 }
 
-.button:link,
-.button:visited {
+.visit:link,
+.visit:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding:15px 40px;
@@ -222,11 +222,11 @@ p{
   position:relative;
   background-color: white;
 }
-.button:hover{
+.visit:hover{
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
-.button:active{
+.visit:active{
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
