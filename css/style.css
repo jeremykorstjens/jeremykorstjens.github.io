@@ -16,6 +16,7 @@ margin:0 auto;
 color:white;
  justify-content:center;
   animation:scroll 5s;
+  position: relative;
 }
 
 .pic {
@@ -92,7 +93,11 @@ color:white;
   animation:down 2s;
   animation-iteration-count: infinite;
   color:red;
-  padding-top:20vh;
+position:absolute;
+  bottom:10px;
+  left: 0;
+right: 0;
+margin: auto;
 }
 
 @keyframes down{
