@@ -6,9 +6,9 @@
 }
 
 .top{
-min-height:100vh;
+min-height:95vh;
  width:100vw;
-background-image:linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url('https://fthmb.tqn.com/wzV7nHfHAzzatixNnWAA0zhCDR0=/768x0/filters:no_upscale()/JavaScript-58acbb8a3df78c345bad32c2.jpg');
+background-image:linear-gradient(to bottom,rgba(0,0,0,.9),rgba(0,0,0,.5),rgba(255,255,255,1)),url('https://fthmb.tqn.com/wzV7nHfHAzzatixNnWAA0zhCDR0=/768x0/filters:no_upscale()/JavaScript-58acbb8a3df78c345bad32c2.jpg');
 background-repeat:repeat;
 background-size:cover;
 display: flex;
