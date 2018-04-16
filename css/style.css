@@ -29,7 +29,7 @@ color:white;
   margin:0 auto;
   box-shadow: 0 0px 10px red;
 }
-.picture{
+.header-info{
   top:0;
   margin:0 auto;
   padding-top:50px;
@@ -118,7 +118,7 @@ margin: auto;
   }
 }
 
-.about,.projects, .contact{
+.about,.projects,.contact{
   min-height:90vh;
   width:100vw;
   padding:40px 120px 80px 120px;
@@ -216,6 +216,9 @@ p{
 }
 .footer{
   height:10vh;
+  width:100%;
+}
+.preview{
   width:100%;
 }
 
