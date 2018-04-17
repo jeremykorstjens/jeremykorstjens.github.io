@@ -53,9 +53,11 @@ color:white;
 }
 .slideleft{
    animation:slideinleft 3s;
+   animation-fill-mode: backwards;
 }
 .slideright{
   animation:slideinright 3s;
+  animation-fill-mode: backwards;
 }
 @keyframes fade{
   0% {
