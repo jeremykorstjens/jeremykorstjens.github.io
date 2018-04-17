@@ -144,8 +144,8 @@ p{
   box-shadow: 5px 5px 10px black;
 }
 .friends {
-  background-image:url('https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/224881_10100965157857882_1530990715_n.jpg?_nc_cat=0&oh=934a51ddb71aed1f5f502b3b37cf395b&oe=5B33CB6A');
-  height:250px;
+  background-image:url(../img/friends.jpg);
+  height:25vw;
   width:100%;
 }
 
@@ -154,8 +154,8 @@ p{
   animation-fill-mode: backwards;
 }
 .foosball {
-    background-image:url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/13321873_10103486994357322_530112671116099595_n.jpg?_nc_cat=0&oh=cfc4d1f22127d17b9f9c91431c837651&oe=5B72CF9B");
-  height:250px;
+  background-image: url("../img/jk.jpg");
+  height:25vw;
   width:100%;
 }
 .left{
@@ -163,10 +163,10 @@ p{
   animation-fill-mode: backwards;
 }
 .middle{
-  background-image:url('https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/1240623_10103148617442372_3184476213003894048_n.jpg?_nc_cat=0&oh=2431cc968b852f4ac8d1bac29ccaba97&oe=5B6BD4CC');
-  background-position:top;
-  height:300px;
+  background-image: url("../img/engaged.jpg");
   width:100%;
+  height:30vw;
+  
 }
 .up{
   animation:up 3s;
