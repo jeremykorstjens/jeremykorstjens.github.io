@@ -24,3 +24,7 @@ $(document).ready(function(){
   });  
 
 });
+
+function hide(){
+  document.getElementById('navi-toggle').checked = false;
+}

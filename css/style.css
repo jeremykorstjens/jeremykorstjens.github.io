@@ -289,3 +289,145 @@ p{
 }
 
 }
+
+/* Navigation */
+
+.navigation_checkbox{
+  display: none;
+}
+
+.navigation_button{
+  background-color: #f2f2f2;
+  border:2px solid white;
+  height:50px;
+  width:50px;
+  position: fixed;
+  top:3vw;
+  left:3vw;
+  border-radius: 50%;
+  z-index: 2000;
+  box-shadow: 0 0px 10px red;
+  text-align: center;
+  cursor:pointer;
+}
+
+.navigation_background{
+  height:45px;
+  width:45px;
+  border-radius: 50%;
+  position:fixed;
+  top:3.2vw;
+  left:3.2vw;
+  background-image: radial-gradient(red,black);
+  z-index:1000;
+  transition: transform .3s cubic-bezier(0.86,0,0.07,1);
+}
+
+.navigation_nav{
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1500;
+  opacity:0;
+  display:none;
+   transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+.navigation_list{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  list-style: none;
+  text-align: center;
+  width:100%;
+}
+
+
+.navigation_item{
+  margin:1rem;
+}
+
+
+
+
+.navigation_link:link,
+.navigation_link:visited{
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 300;
+  padding:1rem 2rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(120deg,transparent 0%,transparent 50%,white 50%);
+  background-size:220%;
+  transition: all .4s;
+}
+
+.navigation_link:hover{
+  background-position: 100%;
+  color:black;
+  transform: translateX(-1rem);
+}
+
+.navigation_checkbox:checked ~ .navigation_background {
+  transform:scale(70);
+}
+
+.navigation_checkbox:checked ~ .navigation_nav {
+ opacity: 1;
+  width:100%;
+  display: block;
+}
+
+/* icon */
+.navigation_icon{
+  position: relative;
+  margin-top: 23px;
+}
+
+.navigation_icon,
+.navigation_icon::before,
+.navigation_icon::after
+{
+  width:25px;
+  height: 2px;
+  background-color:black;
+  display:inline-block;
+
+}
+
+.navigation_icon::before,
+.navigation_icon::after
+{
+  content:"";
+  position: absolute;
+  left:0;
+  transition: all .2s;
+
+
+}
+.navigation_icon::before{
+  top:-10px;
+}
+.navigation_icon::after{
+  top:10px;
+}
+
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon{
+  background-color:transparent;
+}
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon::before{
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon::after{
+  top:0;
+  transform: rotate(-135deg);
+}

@@ -17,6 +17,28 @@
 
 <body>
     <section>
+
+<div class="navigation">
+    <input type="checkbox" class="navigation_checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation_button">
+        <span class="navigation_icon">&nbsp;</span>
+
+    </label>
+
+    <div class="navigation_background">&nbsp;</div>
+
+
+    <nav class="navigation_nav">
+        <ul class="navigation_list">
+            <li class="navigation_item" onclick="hide()"><a href="#about" class="navigation_link">About</a></li>
+            <li class="navigation_item" onclick="hide()"><a href="#projects" class="navigation_link">Projects</a></li>
+            <li class="navigation_item" onclick="hide()"><a href="#contact" class="navigation_link">Contact</a></li>
+        </ul>
+
+    </nav>
+</div>
+
+
         <div class="top">
             <div class="header-info">
                 <img class="pic mb-3" src="https://thumb.ibb.co/d5RhYx/profilepicedited.png" alt="Card image cap">
@@ -29,10 +51,10 @@
     </section>
 
     <section>
-        <div class="about">
+        <div class="about" id="about">
             <div class="row">
                 <div class="col-12">
-                    <span class="aboutme text-center " id="about">About Me</span>
+                    <span class="aboutme text-center " >About Me</span>
                     <hr class="bg-danger mb-5 w-75 mx-auto">
                 </div>
             </div>
@@ -59,7 +81,7 @@
     </section>
 
     <section>
-        <div class="projects">
+        <div class="projects" id="projects">
             <div class="row">
                 <div class="col-12">
                     <span class="aboutme text-center">Projects</span>
@@ -130,7 +152,7 @@
     </section>
 
     <section>
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class="row">
                 <div class="col-12">
                     <span class="aboutme text-center">Contact</span>
