@@ -267,9 +267,9 @@ p{
   .left,.right{
     animation:none;
 }
-  .up{
+/*  .up{
   animation:up 5s;
-  }
+  }*/
   .order2{
     order:2
   }
